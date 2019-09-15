@@ -40,13 +40,13 @@ export default class App extends Component {
 
   handleRegionSelect(region) {
     console.log('selected ' + region);
-    this.setState({dexName: region}, () => {
+    this.setState({dexName: region, searchText: ''}, () => {
       this.fetchDex();
     });
   }
 
   handleChange(event) {
-    this.setState({searchText: event.target.value});
+    this.setState({searchText: event.target.value.toLowerCase()});
   }
 
   render() {
