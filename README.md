@@ -1,3 +1,6 @@
+# Pokédex
+Pokédex containing gen 1 - 6 and National dex of 721 Pokémon. build with React using PokéAPI.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
